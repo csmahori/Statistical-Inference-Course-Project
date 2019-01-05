@@ -1,5 +1,5 @@
 ---
-title: "Statistical Inference Course Project"
+title: "Statistical Inference Course Project- Part 1"
 author: "Chandan Mahodi"
 date: "5 January 2019"
 output:
