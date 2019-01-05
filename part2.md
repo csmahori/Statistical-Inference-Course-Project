@@ -251,7 +251,7 @@ mean(dose_1[dose_1$supp=='VC',]$len)
 ```
 **Since the mean tooth growth with supplement 'OJ' is 22.7 and with 'VC' it is 16.77 under dose=1 and both are out of the confidence interval (17.668 - 21.801), we reject the NULL hypothesis that there is no difference in tooth growth with dose=1.**
   
-###Analysing tooth growth for supplements with dose = 2
+### Analysing tooth growth for supplements with dose = 2
 
 ```r
 dose_2<-ToothGrowth[ToothGrowth$dose==2,]
@@ -283,7 +283,7 @@ mean(dose_2[dose_2$supp=='VC',]$len)
 ```
 **Since the mean tooth growth with supplement 'OJ' is 26.06 and with 'VC' it is 26.14 under dose=2 and both are out of the confidence interval (24.33 - 27.866), so this time we fail to reject the NULL hypothesis and there is no difference in tooth growth.**
   
-##4.State your conclusions and the assumptions needed for your conclusions.
+## 4.State your conclusions and the assumptions needed for your conclusions.
   
 ### Conculsion: 
 * There is no difference in tooth growth despite different supplement.
