@@ -33,7 +33,7 @@ hist(mymean,main="Distribution of 1000 means\n of 40 exponentials",xlab="Means",
 abline(v=1/lambda,col="green",lwd=5)
 ```
 
-![](Statistical_Inference_Project_files/figure-markdown_github/Hisotgram_comparison_mean-1.png)
+![](Statistical_Inference_Project_files/figure-markdown_github/Hisotgram_comparison_mean-3.png)
 
 We could see that both the center of the means distribution and the green vertical line of theoretical mean are very closed to each other.
 
@@ -65,7 +65,7 @@ hist(myvar,main="Sample distribution of 1000 variances\n of 40 exponentials",xla
 abline(v=TheVar,col="green",lwd=5)
 ```
 
-![](Statistical_Inference_Project_files/figure-markdown_github/Hisotgram_comparison_var-1.png)
+![](Statistical_Inference_Project_files/figure-markdown_github/Hisotgram_comparison_var-3.png)
 
 We could see that both the center of the sample Variances distribution and the green vertical line of theoretical Variance are very closed to each other.
 
